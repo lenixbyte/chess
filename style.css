@@ -1,0 +1,87 @@
+body{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxins{
+    display: flex;
+    flex-direction: row;
+}
+
+.rank{
+    display: flex;
+    flex-direction: column;
+}
+
+.file{
+    display: flex;
+    flex-direction: row;
+}
+
+.chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: 496px;
+  height: 496px;
+  border: 1px solid black;
+}
+
+.sqaure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.sqaure img{
+    width: 62px;
+    height: 62px;
+}
+
+.sqaure:hover{
+    /* border: 1px solid black; */
+    background-color: #8e9b73dc;
+    cursor: pointer;
+}
+
+.textsq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.ranksq{
+    height: 62px;
+    width: 22px;
+}
+
+.filesq{
+    width: 62px;
+    height: 22px;
+}
+
+.black{
+    background-color: #ac94bc;
+}
+
+.other-black{
+    /* background: linear-gradient(135deg, #ac94bc, black);
+    width: 62px;
+    height: 62px;
+    z-index: 1; */
+}
